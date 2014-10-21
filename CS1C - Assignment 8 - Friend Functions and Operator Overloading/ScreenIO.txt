@@ -1,0 +1,44 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #8 : Friend Functions and Operator Overloading
+***************************************************************************
+
+Test CheckID Friend Funtion
+
+Calculus's ID: 668888
+Pujols' ID:668899
+Not the same
+
+Change Pujols' ID
+
+Calculus's ID: 668888
+Pujols' ID:668888
+Same
+------------------------------------------------------------
+Test == Operator of CS1CStudent
+
+Kershaw's ID: 156789
+Pujols' ID:668888
+Not the same
+
+
+Change Pujols' ID
+
+Kershaw's ID: 156789
+Pujols' ID:156789
+Same
+------------------------------------------------------------
+Test the additional member function which added an integer to age
+
+Pujols' initial age: 35
+5 is added to the student's age.
+Pujols' current age: 40
+------------------------------------------------------------
+Test the + operator to add a constant to a CS1CStudent's age
+
+Kershaw' initial age: 29
+5 is added to the student's age.
+Kershaw' current age: 34
+------------------------------------------------------------

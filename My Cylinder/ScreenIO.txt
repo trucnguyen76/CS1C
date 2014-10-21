@@ -1,0 +1,179 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  LAB #5        : Inheritance - Cylinder Type
+***************************************************************************
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 
+1
+
+Enter the Cylinder's Radius: -1
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 3
+
+The Cylinder's Radius is 0
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: -2
+
+**** The number -2 is an invalid entry     ****
+**** Please input a number between 0 and 7 ****
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 2
+
+Enter the Cylinder's Height: -2
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 4
+
+The Cylinder's Height is 0
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 1
+
+Enter the Cylinder's Radius: 5
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 2
+
+Enter the Cylinder's Height: 9
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 3
+
+The Cylinder's Radius is 5
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 4
+
+The Cylinder's Height is 9
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 5
+
+The Cylinder's Surface Area is 282.743
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 6
+
+The Cylinder's Volume is 706.858
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 7
+
+The cylinder's radius is: 5
+The cylinder's height is: 9
+The cylinder's surface area is: 282.743
+The cylinder's volume is: 706.858
+
+Cylinder Menu
+1/ Enter the Radius
+2/ Enter the Height
+3/ Output the Radius
+4/ Output the Height
+5/ Output the Surface Area
+6/ Output the Volume
+7/ Output the Cylinder's Info
+0/ Exit the program
+Enter your selection: 0
+

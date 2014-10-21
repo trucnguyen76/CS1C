@@ -1,0 +1,10 @@
+Vinton
+1800
+Steinberg
+2500
+Nguyen
+6000
+Frolov
+4000
+Jones
+5000

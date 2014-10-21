@@ -1,0 +1,85 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #3 : Student
+***************************************************************************
+
+Student's Info Before
+Student's Name:          Mike Trout
+Student's ID:            778899
+Student's Phone Number:  949-555-1234
+Student's Age:           22
+Student's Gender:        Male
+Student's Class:         Freshman
+Student's GPA:           4
+------------------------------------------------------------
+Student's Name:          Miguel Cabrera
+Student's ID:            456789
+Student's Phone Number:  248-555-5555
+Student's Age:           29
+Student's Gender:        Male
+Student's Class:         Sophomore
+Student's GPA:           3.33
+------------------------------------------------------------
+Student's Name:          Bill O’Reilly
+Student's ID:            87654
+Student's Phone Number:  703-703-1234
+Student's Age:           57
+Student's Gender:        Male
+Student's Class:         Sophomore
+Student's GPA:           3.8
+------------------------------------------------------------
+Student's Name:          Oprah Winfrey
+Student's ID:            777744
+Student's Phone Number:  213-555-6789
+Student's Age:           50
+Student's Gender:        Female
+Student's Class:         Freshman
+Student's GPA:           3.23
+------------------------------------------------------------
+Student's Name:                      Alberto Pujols
+Student's ID:                        668899
+Student's Phone Number:              949-665-1234
+Student's Age:                       35
+Student's Gender:                    Male
+Student's Class:                     Freshman
+Student's GPA:                       3.3
+Student's Total Score:               778899
+Student's Projected Graduation Date: 05/12/2016
+Student's Python Knowledge:          Yes
+------------------------------------------------------------
+Student's Name:                      Clayton Kershaw
+Student's ID:                        156789
+Student's Phone Number:              248-555-6543
+Student's Age:                       29
+Student's Gender:                    Male
+Student's Class:                     Sophomore
+Student's GPA:                       2.5
+Student's Total Score:               456789
+Student's Projected Graduation Date: 05/11/2015
+Student's Python Knowledge:          No
+------------------------------------------------------------
+Student's Name:                      Jim Rome
+Student's ID:                        876545
+Student's Phone Number:              703-703-7654
+Student's Age:                       40
+Student's Gender:                    Male
+Student's Class:                     Sophomore
+Student's GPA:                       3.2
+Student's Total Score:               778899
+Student's Projected Graduation Date: 05/11/2015
+Student's Python Knowledge:          Yes
+------------------------------------------------------------
+Alberto Pujols' Info After: 
+Student's Name:                      Alberto Pujols
+Student's ID:                        112233
+Student's Phone Number:              949-123-4567
+Student's Age:                       40
+Student's Gender:                    Male
+Student's Class:                     Junior
+Student's GPA:                       3.7
+Student's Total Score:               956235
+Student's Projected Graduation Date: 05/20/2017
+Student's Python Knowledge:          Yes
+------------------------------------------------------------

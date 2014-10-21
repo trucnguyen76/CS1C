@@ -1,0 +1,16 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #4 : Election
+***************************************************************************
+
+Candidate Votes     Received     % of Total Votes Received
+Jones                   5000               25.91
+Frolov                  4000               20.73
+Nguyen                  6000               31.09
+Steinberg               2500               12.95
+Vinton                  1800                9.33
+Total                  19300
+
+The Winner of the Election is Nguyen

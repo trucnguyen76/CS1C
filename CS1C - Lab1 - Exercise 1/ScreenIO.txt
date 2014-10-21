@@ -1,0 +1,16 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  LAB #1        : Exercise 1
+***************************************************************************
+
+Enter the first 2 dimensions, separated by a space: 12 24 
+The first vector's dimensions are: 12	24	36
+Enter 3 dimensions for the second vector, separated by a space: 1 2 3
+The dot product of the 2 vectors is 168
+
+The third matrix is: 
+3	5	7	
+9	11	13	
+15	17	10	

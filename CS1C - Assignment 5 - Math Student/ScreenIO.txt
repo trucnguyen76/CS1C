@@ -1,0 +1,202 @@
+Non-default Constructor is Called
+
+Non-default Constructor is Called
+
+Non-default Constructor is Called
+
+Default Constructor is Called
+
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #5 : Math Student
+***************************************************************************
+
+Calculus 's Info 
+Student's Name:            Joe Calculus
+Student's ID:              668888
+Student's Phone Number:    949-555-1234
+Student's Age:             23
+Student's Gender:          Male
+Student's Class:           Freshman
+Student's GPA:             3.3
+Student's Address:         1234 Main
+Student's City:            Laguna Niguel
+Student's State:           CA, 92677
+------------------------------------------------------------
+Algebra 's Info 
+Student's Name:            Mary Algebra
+Student's ID:              777777
+Student's Phone Number:    278-555-1234
+Student's Age:             29
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.5
+Student's Address:         3333 Marguerite
+Student's City:            Mission Viejo
+Student's State:           CA, 92646
+------------------------------------------------------------
+Trig 's Info 
+Student's Name:            Jo Trig
+Student's ID:              123456
+Student's Phone Number:    703-555-1234
+Student's Age:             59
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.8
+Student's Address:         9876 Elm
+Student's City:            New York
+Student's State:           NY, 12345
+------------------------------------------------------------
+============================================================
+Change Calculus' address to: 4321 Main
+Calculus 's Info 
+Student's Name:            Joe Calculus
+Student's ID:              668888
+Student's Phone Number:    949-555-1234
+Student's Age:             23
+Student's Gender:          Male
+Student's Class:           Freshman
+Student's GPA:             3.3
+Student's Address:         4321 Main
+Student's City:            Laguna Niguel
+Student's State:           CA, 92677
+------------------------------------------------------------
+Change Algebra's city to: Aliso Viejo
+Algebra 's Info 
+Student's Name:            Mary Algebra
+Student's ID:              777777
+Student's Phone Number:    278-555-1234
+Student's Age:             29
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.5
+Student's Address:         3333 Marguerite
+Student's City:            Aliso Viejo
+Student's State:           CA, 92646
+------------------------------------------------------------
+Change Trig's state to: CA
+Chage Trig's zip code to: 95623
+Trig 's Info 
+Student's Name:            Jo Trig
+Student's ID:              123456
+Student's Phone Number:    703-555-1234
+Student's Age:             59
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.8
+Student's Address:         9876 Elm
+Student's City:            New York
+Student's State:           CA, 95623
+------------------------------------------------------------
+Copy Constructor is Called
+
+Pass and Return by Copy Function 
+
+Student1 's Info 
+Student's Name:            Jo Trig
+Student's ID:              123456
+Student's Phone Number:    703-555-1234
+Student's Age:             59
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.8
+Student's Address:         9876 Elm
+Student's City:            New York
+Student's State:           CA, 95623
+------------------------------------------------------------
+Copy Constructor is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Return to main from PassAndReturnByCopy function
+
+Trig 1's Info 
+Student's Name:            Jo Trig
+Student's ID:              123456
+Student's Phone Number:    703-555-1234
+Student's Age:             59
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.8
+Student's Address:         9876 Elm
+Student's City:            New York
+Student's State:           CA, 95623
+------------------------------------------------------------
+Copy Algebra's info to trig1
+
+Copy Constructor is Called
+
+Copy From(deep copy) is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Trig 1's Info 
+Student's Name:            Mary Algebra
+Student's ID:              777777
+Student's Phone Number:    278-555-1234
+Student's Age:             29
+Student's Gender:          Female
+Student's Class:           Sophomore
+Student's GPA:             3.5
+Student's Address:         3333 Marguerite
+Student's City:            Aliso Viejo
+Student's State:           CA, 92646
+------------------------------------------------------------
+Pass and Return by Reference Function 
+
+Return to main from PassAndReturnByReference function
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+
+Destructor is Called
+
+delete[] address is Called
+
+delete[] city is Called
+
+delete[] state is Called
+

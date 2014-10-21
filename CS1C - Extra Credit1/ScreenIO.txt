@@ -1,0 +1,27 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #6 : Extra Credit
+***************************************************************************
+
+Enter the words: 
+The rain in Spain falls mainly in the plain
+The words in alphabetical order(duplicate allowed): 
+falls
+in
+in
+mainly
+plain
+rain
+Spain
+The
+the
+The words in alphabetical order(duplicate not allowed): 
+falls
+in
+mainly
+plain
+rain
+Spain
+The

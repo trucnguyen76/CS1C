@@ -1,0 +1,348 @@
+	//Perfect Shuffle
+	void DeckOfCards::PerfectShuffle()
+	{
+		Card *cardBeingMoved;
+		Card *whereToMove;
+		int cardAway;
+		int movingTimes;
+		int movingTimesMax;
+		int i;		//lcv for the second for loop
+
+		movingTimesMax = CARD_MAX/2 - 1;
+		whereToMove = head;
+
+		for(movingTimes = 1; movingTimes <= movingTimesMax; movingTimes++)
+		{
+			//Looking for the card being moved
+			for (i = 1; i <= cardAway; i++)
+			{
+				*cardBeingMoved++;
+			}
+			
+			//Reassign the pointers of the cards around the card being moved
+			cardBeingMoved->previous->next = cardBeingMoved->next;
+			cardBeingMoved->next->previous = cardBeingMoved->previous;
+			
+			//Link the card to the list
+			cardBeingMoved->next = whereToMove->next;
+			cardBeingMoved->previous = whereToMove;
+			
+			//Reassign the pointers to link to the card being moved
+			whereToMove->next->previous = cardBeingMoved;
+			whereToMove->next = cardBeingMoved;
+			
+			//Reassign *whereToMove to new place to move
+			whereToMove = whereToMove->next->next;
+			
+			cardAway--;
+		}
+		
+		
+/**********************************************************************************
+* AUTHOR        : Elva Nguyen
+* STUDENT ID    : 366160
+* ASSIGNMENT 2	: Deck Of Cards
+* CLASS         : CS1C
+* SECTION       : T TH 6 - 8:50
+* DUE DATE      : 9/2/2014
+**********************************************************************************/
+#include <string>
+#include <iomanip>
+#include <sstream>
+
+using namespace std;
+
+class Card
+{
+public:
+						/**********************
+						 -----CONSTRUCTORS-----
+						 **********************/
+	//Default constructor
+	Card();
+
+	//Constructor with specific suit and rank of the card
+	Card(	char theRank,		//The rank of the Card
+			char theSuit);		//The suit of the Card
+						/**********************
+						 ------DESTRUCTORS-----
+						 **********************/
+	//Default destructor
+	~Card();
+
+						/******************
+						 -----MUTATORS-----
+						 ******************/
+	//Set suit for the card
+	void SetSuit(char theSuit);		//The Card's Suit the user want to change to
+
+	//Set rank for the card
+	void SetRank(char theRank);		//The Card's Rank the user want to change to
+
+						/********************
+						-----ACCESSORS-----
+						********************/
+	//Get the Card's Suit
+	string GetSuit() 		const;
+
+	//Get the Card's Rank
+	char GetRank() 		const;
+
+	//Output the Card
+	string OutputCard()	const;
+
+private:
+	Card *previous;
+	char suit;
+	char rank;
+	int	cardNumber;
+	Card *next;
+};
+		
+		/**********************************************************************************
+* AUTHOR        : Elva Nguyen
+* STUDENT ID    : 366160
+* ASSIGNMENT 2	: Deck Of Cards
+* CLASS         : CS1C
+* SECTION       : T TH 6 - 8:50
+* DUE DATE      : 9/2/2014
+**********************************************************************************/
+#include "Card.h"
+
+/**********************************************************************************
+ * CONSTANTS
+ * --------------------------------------------------------------------------------
+ * SPADE	:	The Suit Spade
+ * HEART	: 	The Suit Heart
+ * DIAMOND	:	The Suit Diamond
+ * CLUB		: 	The Suit Club
+ *********************************************************************************/
+const string SPADE 		= "SPADE";		//u2660
+const string HEART 		= "HEART";		//u2665
+const string DIAMOND 	= "DIAMOND";	//u2666
+const string CLUB		= "CLUB";		//u2663
+
+						/**********************
+						 -----CONSTRUCTORS-----
+						 **********************/
+//Default constructor
+Card::Card()
+{
+	rank = 'A';
+	suit = SPADE;
+}
+
+//Constructor with specific suit and rank of the card
+Card::Card(	char theRank,		//The rank of the Card
+			char theSuit)		//The suit of the Card
+{
+	SetSuit(theSuit);
+	SetRank(theRank);
+	previous = NULL;
+	next 	= NULL;
+	cardNumber = 0;
+}
+						/**********************
+						 ------DESTRUCTORS-----
+						 **********************/
+//Default destructor
+Card::~Card()
+{}
+
+						/******************
+						 -----MUTATORS-----
+						 ******************/
+//Set suit for the card
+void Card::SetSuit(char theSuit)   //The Card's Suit the user want to change to
+{
+	switch (toupper(theSuit))
+	{
+	case 'C':
+		suit = CLUB;
+		break;
+	case 'S':
+		suit = SPADE;
+		break;
+	case 'H':
+		suit = HEART;
+		break;
+	case 'D':
+		suit = DIAMOND;
+		break;
+	}
+}
+
+//Set rank for the card
+void Card::SetRank(char theRank)   //The Card's Rank the user want to change to
+{
+	rank = theRank;
+}
+
+						/********************
+						-----ACCESSORS-----
+						********************/
+//Get the Card's Suit
+string Card::GetSuit() 		const
+{
+	return suit;
+}
+
+//Get the Card's Rank
+char Card::GetRank() 		const
+{
+	return rank;
+}
+
+//Output the Card
+string Card::OutputCard()	const
+{
+	stringstream output;				//CALC - The String Stream Variable
+
+	output << rank << " of " << suit << endl;
+
+	return output.str();
+}
+
+/**********************************************************************************
+* AUTHOR        : Elva Nguyen
+* STUDENT ID    : 366160
+* ASSIGNMENT 2	: Deck Of Cards
+* CLASS         : CS1C
+* SECTION       : T TH 6 - 8:50
+* DUE DATE      : 9/2/2014
+**********************************************************************************/
+#ifndef	DECK_OF_CARDS_H_
+#define	DECK_OF_CARDS_H_
+
+#include "Card.h"
+
+class DeckOfCards
+{
+public:
+							/**********************
+							 -----CONSTRUCTORS-----
+							 **********************/
+	//Default constructor
+	DeckOfCards();
+
+							/**********************
+							 ------DESTRUCTORS-----
+							 **********************/
+	//Default destructor
+	~DeckOfCards();
+
+							/******************
+							 -----MUTATORS-----
+							 ******************/
+	//Perfect Shuffle
+	void PerfectShuffle();
+
+	//Put the deck in order
+	void DeckInOrder();
+							/********************
+							-----ACCESSORS-----
+							********************/
+
+	//Output the Deck
+	string OutputDeck()	const;
+
+private:
+	Card *head;
+};
+
+#endif/* DECK_OF_CARDS_H_ */
+
+		
+/**********************************************************************************
+* AUTHOR        : Elva Nguyen
+* STUDENT ID    : 366160
+* ASSIGNMENT 2	: Deck Of Cards
+* CLASS         : CS1C
+* SECTION       : T TH 6 - 8:50
+* DUE DATE      : 9/2/2014
+**********************************************************************************/
+#include "DeckOfCards.h"
+
+	const int CARD_MAX	=	10;
+							/**********************
+							 -----CONSTRUCTORS-----
+							 **********************/
+	//Default constructor
+	DeckOfCards::DeckOfCards()
+	{
+		int card;
+
+		head = NULL;
+
+		for (card = 1; card <= CARD_MAX; card++)
+		{
+			head = CreateNewCard(head);
+		}
+	}
+							/**********************
+							 ------DESTRUCTORS-----
+							 **********************/
+	//Default destructor
+	DeckOfCards::~DeckOfCards()
+	{}
+
+							/******************
+							 -----MUTATORS-----
+							 ******************/
+	//Perfect Shuffle
+	void DeckOfCards::PerfectShuffle()
+	{
+		Card *cardBeingMoved;
+		Card *whereToMove;
+		int cardAway;
+		int movingTimes;
+		int movingTimesMax;
+		int i;		//lcv for the second for loop
+
+		movingTimesMax = CARD_MAX/2 - 1;
+		whereToMove = head;
+
+		for(movingTimes = 1; movingTimes <= movingTimesMax; movingTimes++)
+		{
+			//Looking for the card being moved
+			for (i = 1; i <= cardAway; i++)
+			{
+				*cardBeingMoved++;
+			}
+			
+			//Reassign the pointers of the cards around the card being moved
+			cardBeingMoved->previous->next = cardBeingMoved->next;
+			cardBeingMoved->next->previous = cardBeingMoved->previous;
+			
+			//Link the card to the list
+			cardBeingMoved->next = whereToMove->next;
+			cardBeingMoved->previous = whereToMove;
+			
+			//Reassign the pointers to link to the card being moved
+			whereToMove->next->previous = cardBeingMoved;
+			whereToMove->next = cardBeingMoved;
+			
+			//Reassign *whereToMove to new place to move
+			whereToMove = whereToMove->next->next;
+			
+			cardAway--;
+		}
+
+	}
+
+	//Put the deck in order
+	void DeckOfCards::DeckInOrder()
+	{
+
+	}
+
+							/********************
+							-----ACCESSORS-----
+							********************/
+
+	//Output the Deck
+	string DeckOfCards::OutputDeck()	const
+	{
+
+	}
+
