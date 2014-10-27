@@ -1,0 +1,327 @@
+Constructor called.
+
+Constructor called.
+
+Constructor called.
+
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1B
+*  SECTION       : M-W: 10:00 - 12:00p
+*  ASSIGNMENT #9 : Queue
+***************************************************************************
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 1
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 2
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 3
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 4
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 5
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 3
+
+The QUEUE is NOT empty.
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 4
+
+Yes, the QUEUE is full.
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 5
+
+1
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 6
+
+There are 5 elements in the queue.
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 2
+
+The number being dequeued is: 1
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 5
+
+2
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 1
+
+Enter the number you want to enqueue: 6
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 8
+
+Assignment operator
+
+Copy constructor called
+
+Destructor called
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 9
+
+Copy constructor called
+
+Pass and return by copy function 
+
+Front: 2
+Output Queue: 
+The 1 element is 2
+The 2 element is 3
+The 3 element is 4
+The 4 element is 5
+The 5 element is 6
+
+
+Copy constructor called
+
+Destructor called
+
+Destructor called
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 10
+
+Pass and return by reference function 
+
+Front: 2
+Size: 5
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 7
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 7
+
+The queue is already cleared.
+
+QUEUE MENU:  								
+1  - ENQUEUE 								
+2  - DEQUEUE 								
+3  - ISEMPTY 								
+4  - ISFULL  								
+5  - FRONT   								
+6  - SIZE    								
+7  - CLEAR   								
+8  - ASSIGNMENT OPERATOR 					
+9  - PASS AND RETURN BY COPY FUNCTION      	
+10 - PASS AND RETURN BY REFERENCE FUNCTION 	
+0  - to Exit								
+Enter a command? 0
+
+Destructor called
+
+Destructor called
+
+Destructor called
+
