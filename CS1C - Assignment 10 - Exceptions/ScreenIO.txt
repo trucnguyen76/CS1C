@@ -1,327 +1,210 @@
-Constructor called.
-
-Constructor called.
-
-Constructor called.
+Fail Assert:
 
 ***************************************************************************
 *  PROGRAMMED BY : Elva Nguyen
 *  CLASS         : CS1B
 *  SECTION       : M-W: 10:00 - 12:00p
-*  ASSIGNMENT #9 : Queue
+*  ASSIGNMENT #9 : Queue Template
 ***************************************************************************
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
+INT QUEUE: 
 
-Enter the number you want to enqueue: 1
+Queue has 0 elements
+Queue is empty
+Queue is not full
+Adding 10
+Adding 20
+Adding 15
+Adding 23
+Adding 29
+Adding 37
+Queue has 6 elements
+Queue is not empty
+Queue is full
+Front: 10
+Print queue: 
+The 1 element is 10
+The 2 element is 20
+The 3 element is 15
+The 4 element is 23
+The 5 element is 29
+The 6 element is 37
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
+Deleting 10
+Deleting 20
+Deleting 15
+Deleting 23
+Queue has 2 elements
+Queue is not empty
+Queue is not full
+Front: 29
+Print queue: 
+The 1 element is 29
+The 2 element is 37
+Assertion failed: !isFull(), file ..\Queue.h, line 192
 
-Enter the number you want to enqueue: 2
+This application has requested the Runtime to terminate it in an unusual way.
+Please contact the application's support team for more information.
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
+Adding 100
+Adding 200
+Adding 150
+Adding 230
+Adding 290
 
-Enter the number you want to enqueue: 3
+-------------------------------------------------------------------------------
+Pass Assert:
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1B
+*  SECTION       : M-W: 10:00 - 12:00p
+*  ASSIGNMENT #9 : Queue Template
+***************************************************************************
 
-Enter the number you want to enqueue: 4
+INT QUEUE: 
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
+Queue has 0 elements
+Queue is empty
+Queue is not full
+Adding 10
+Adding 20
+Adding 15
+Adding 23
+Adding 29
+Adding 37
+Queue has 6 elements
+Queue is not empty
+Queue is not full
+Front: 10
+Print queue: 
+The 1 element is 10
+The 2 element is 20
+The 3 element is 15
+The 4 element is 23
+The 5 element is 29
+The 6 element is 37
 
-Enter the number you want to enqueue: 5
+Deleting 10
+Deleting 20
+Deleting 15
+Deleting 23
+Queue has 2 elements
+Queue is not empty
+Queue is not full
+Front: 29
+Print queue: 
+The 1 element is 29
+The 2 element is 37
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 3
-
-The QUEUE is NOT empty.
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 4
-
-Yes, the QUEUE is full.
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 5
-
-1
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 6
-
-There are 5 elements in the queue.
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 2
-
-The number being dequeued is: 1
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 5
-
-2
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 1
-
-Enter the number you want to enqueue: 6
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 8
-
-Assignment operator
-
-Copy constructor called
-
-Destructor called
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 9
-
-Copy constructor called
+Adding 100
+Adding 200
+Adding 150
+Adding 230
+Adding 290
+Deleting 29
+Deleting 37
+Deleting 100
+Queue has 4 elements
+Queue is not empty
+Queue is not full
+Front: 200
+Print queue: 
+The 1 element is 200
+The 2 element is 150
+The 3 element is 230
+The 4 element is 290
 
 Pass and return by copy function 
 
-Front: 2
 Output Queue: 
-The 1 element is 2
-The 2 element is 3
-The 3 element is 4
-The 4 element is 5
-The 5 element is 6
-
-
-Copy constructor called
-
-Destructor called
-
-Destructor called
-
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 10
+The 1 element is 200
+The 2 element is 150
+The 3 element is 230
+The 4 element is 290
 
 Pass and return by reference function 
 
-Front: 2
-Size: 5
+Output Queue: 
+The 1 element is 200
+The 2 element is 150
+The 3 element is 230
+The 4 element is 290
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 7
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 7
+Clear Queue
+----------------------------------------------------------------------------
+EXCEPTION:
 
-The queue is already cleared.
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1B
+*  SECTION       : M-W: 10:00 - 12:00p
+*  ASSIGNMENT #10: Exceptions
+***************************************************************************
 
-QUEUE MENU:  								
-1  - ENQUEUE 								
-2  - DEQUEUE 								
-3  - ISEMPTY 								
-4  - ISFULL  								
-5  - FRONT   								
-6  - SIZE    								
-7  - CLEAR   								
-8  - ASSIGNMENT OPERATOR 					
-9  - PASS AND RETURN BY COPY FUNCTION      	
-10 - PASS AND RETURN BY REFERENCE FUNCTION 	
-0  - to Exit								
-Enter a command? 0
+INT QUEUE: 
 
-Destructor called
+Queue has 0 elements
+Queue is empty
+Queue is not full
+Adding 10
+Adding 20
+Adding 15
+Adding 23
+Adding 29
+Adding 37
+Queue has 6 elements
+Queue is not empty
+Queue is full
+Front: 10
+Print queue: 
+The 1 element is 10
+The 2 element is 20
+The 3 element is 15
+The 4 element is 23
+The 5 element is 29
+The 6 element is 37
 
-Destructor called
+Deleting 10
+Deleting 20
+Deleting 15
+Deleting 23
+Queue has 2 elements
+Queue is not empty
+Queue is not full
+Front: 29
+Print queue: 
+The 1 element is 29
+The 2 element is 37
 
-Destructor called
+Adding 100
+Adding 200
+Adding 150
+Adding 230
+Adding 290
+Queue is full!!!
+Deleting 29
+Deleting 37
+Deleting 100
+Queue has 3 elements
+Queue is not empty
+Queue is not full
+Front: 200
+Print queue: 
+The 1 element is 200
+The 2 element is 150
+The 3 element is 230
+
+Clear Queue
+Queue is empty!!!
+
+Queue has 0 elements
+Queue is empty
+Queue is not full
+Queue is empty!!!
+
+Print queue: 
+Queue is empty!!!
+Clear Queue
 

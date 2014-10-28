@@ -8,6 +8,8 @@
  *************************************************************************/
 #ifndef QUEUE_H_
 #define QUEUE_H_
+#define EXCEPTION
+//#define ASSERT
 
 #include <iomanip>
 #include <iostream>
@@ -17,7 +19,11 @@
 #include <sstream>
 using namespace std;
 
-static int counter;
+#ifdef EXCEPTION
+	class Full{};	//Exception Class
+
+	class Empty{};	//Exception Class
+#endif
 
 template <class type>
 class Queue
@@ -91,8 +97,6 @@ public:
 	 ************************************************************************/
 	void copyQueue(const Queue <type>& anotherQueue);
 
-//	Queue <type> operator = (const Queue <type>& anotherQueue);
-
 								/********************
 								-----ACCESSORS-----
 								********************/
@@ -130,10 +134,6 @@ public:
 	 *		-> RETURN nothing
 	 ************************************************************************/
 	void print()	const;
-
-	class Full{};	//Exception Class
-
-	class Empty{};	//Exception Class
 
 private:
 	Node 	   *head;			//The TypeStruct pointer points to the front
@@ -190,6 +190,9 @@ void Queue<type>::enqueue(const type &newItem)	//IN - The item to enqueue
 	nodePnt->object 	= newItem;
 	nodePnt->next		= NULL;
 
+#ifdef ASSERT
+	assert(!isFull());
+#endif
 	/***********************************************************************
 	 * Check whether the list is empty or not. If the list is empty then
 	 * 	the program will add the first node to the front, otherwise, it will
@@ -209,10 +212,12 @@ void Queue<type>::enqueue(const type &newItem)	//IN - The item to enqueue
 		nodePnt			= NULL;
 		count++;
 	}
+#ifdef EXCEPTION
 	else
 	{
 		throw Full();
 	}
+#endif
 
 	nodePnt = NULL;
 }
@@ -236,10 +241,12 @@ void Queue <type> :: dequeue()
 			tail = NULL;
 		}
 	}
+#ifdef EXCEPTION
 	else
 	{
 		throw Empty();
 	}
+#endif
 
 	nodePnt = NULL;
 }
@@ -268,7 +275,6 @@ void Queue <type> :: destroyQueue()
 template <class type>
 bool Queue <type> :: isEmpty()	const
 {
-	counter++;
 	return head == NULL;
 }
 
@@ -287,17 +293,18 @@ int Queue <type> :: size()		const
 template <class type>
 type Queue <type> :: front()	const
 {
-	type *front;
 
+#ifdef EXCEPTION
 	if(isEmpty())
 	{
 		throw Empty();
 	}
+#endif
+
 	else
 	{
-		front = &(head->object);
+		return head->object;
 	}
-	return *front;
 }
 
 template <class type>
@@ -330,13 +337,16 @@ void Queue <type> ::print()	const
 {
 	int counter = 0;
 
-	Node *nodePnt;
+	Node *nodePnt;		//CALC - Auxiliary node pointer
 	nodePnt = head;
 
+#ifdef EXCEPTION
 	if(isEmpty())
 	{
-		cout << "There is nothing to output";
+		throw Empty();
 	}
+#endif
+
 	while(nodePnt != NULL)
 	{
 		counter++;
@@ -350,20 +360,5 @@ void Queue <type> ::print()	const
 
 	nodePnt = NULL;
 }
-
-//template <class type>
-//Queue <type> Queue <type>::operator = (const Queue <type>& anotherQueue)
-//{
-//	cout << "Assignment operator\n\n";
-//
-//	count  		= 0;
-//	capacity 	= anotherQueue.capacity;
-//	head		= NULL;
-//	tail 		= NULL;
-//
-//	copyQueue(anotherQueue);
-//
-//	return *this;
-//}
 
 #endif /* QUEUE_H_ */
