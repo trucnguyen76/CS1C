@@ -1,0 +1,36 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1B
+*  SECTION       : M-W: 10:00 - 12:00p
+*  ASSIGNMENT #3 : Extra Credit 3 - Wrapper
+***************************************************************************
+
+Stack1 is EMPTY? true
+Stack1 is FULL? false
+Stack1 is EMPTY? false
+Stack1 is FULL? false
+Front Stack1: 6
+Removed item: 6
+Removed item: 5
+Stack1 is EMPTY? false
+Stack1 is FULL? false
+Front Stack1: 4
+Stack1 is FULL? true
+Front Stack1: 10
+Stack1 is FULL? true
+Front Stack1: 10
+
+linkedStackType<int>stack3(stack1)
+Stack3 is EMPTY? false
+Stack3 is FULL? true
+Front Stack3: 10
+Destroy Stack3
+Stack3 is EMPTY? true
+Stack3 is FULL? false
+
+stack2 = stack1
+Front Stack 1: 10
+Front Stack 2: 10
+Removed item stack2: 10
+Removed item stack2: 9
+Front Stack2: 8

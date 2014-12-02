@@ -1,0 +1,28 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1B
+*  SECTION       : M-W: 10:00 - 12:00p
+*  ASSIGNMENT #12: Recursion
+***************************************************************************
+
+Please enter the beginning index (-1 to end program): 13
+
+Please enter the end index: 20
+
+ABCDEFGHIJKLTSRQPONMUVWXYZ
+
+Please enter the beginning index (-1 to end program): 6
+
+Please enter the end index: 22
+
+ABCDEVUTSRQPONMLKJIHGFWXYZ
+
+Please enter the beginning index (-1 to end program): 1
+
+Please enter the end index: 26
+
+ZYXWVUTSRQPONMLKJIHGFEDCBA
+
+Please enter the beginning index (-1 to end program): -1
+
+Thank you for using the program. Have a nice day!!! (:

@@ -1,0 +1,121 @@
+/**************************************************************************
+ * AUTHOR     	  : Elva Nguyen
+ * STUDENT ID 	  : 366160
+ * ASSIGNMENT #13 : Link List
+ * CLASS      	  : Computer Science 1B
+ * SECTION    	  : M-W 10am -12pm
+ * DUE DATE   	  : 3/17/14
+ *************************************************************************/
+#include "header.h"
+/**************************************************************************
+ *
+ *	Link List
+ * ________________________________________________________________________
+ * This program will prompt for the user the input file's name and then
+ * 		output the list of DVDs in the input file to an output file
+ * ________________________________________________________________________
+ * INPUTS:
+ * 		inputFileName	: The Input File's Name
+ * 		outputFileName	: The Output File's Name
+ * OUTPUTS:
+ * 		This program will output the DVD list to the output file
+ *************************************************************************/
+int main()
+{
+
+	//OUTPUT - Class Headings
+	cout << PrintHeader("Elva Nguyen", 'a', "Link List", 13);
+
+	LinkList<int> intList;			//OUT 	- The first int link list
+	LinkList<int> intList2;			//OUT 	- The second int link list
+	LinkList<double> doubleList;	//OUT 	- The first double link list
+	LinkList<double> doubleList2;	//OUT 	- The second double link list
+	int index;						//CALC 	- The index of the item
+	int intItem;					//CALC	- The holder of an item type int
+	double doubleItem;				//CALC	- The holder of an item type double
+
+	cout << "INT LINK LIST\n";
+
+	intList.insertFirst(50);
+	intList.insertLast(40);
+	intList.insertFirst(30);
+	intList.insertLast(60);
+	intList.insert(10, 2);
+
+	for(index = 0; index < intList.getSize(); index++ )
+	{
+		intList.retrieve(intItem, index);
+		intList2.insertFirst(intItem);
+	}
+
+	cout << "Linked List 1: ";
+	intList.print();
+	cout << "Linked List 2: ";
+	intList2.print();
+
+	cout << "\nDeleting the third node in both linked list\n";
+
+	intList.deleteItem(intItem, 2);
+	intList2.deleteItem(10);
+
+	cout << "Linked List 1: ";
+	intList.print();
+	cout << "Linked List 2: ";
+	intList2.print();
+
+	cout << "\nInserting a node in the moddle of the list\n";
+
+	intList.insert(70, 2);
+	intList2.insert(70, 2);
+
+	cout << "Linked List 1: ";
+	intList.print();
+	cout << "Linked List 2: ";
+	intList2.print();
+//******************************************************************************
+
+	cout << setfill('*');
+	cout << setw(75) << "*" << endl;
+	cout << "DOUBLE LINK LIST\n";
+
+	doubleList.insertFirst(75.5);
+	doubleList.insertLast(20.6);
+	doubleList.insertFirst(75.9);
+	doubleList.insertLast(26.3);
+	doubleList.insert(200.1, 2);
+
+	for(index = 0; index < doubleList.getSize(); index++ )
+	{
+		doubleList.retrieve(doubleItem, index);
+		doubleList2.insertFirst(doubleItem);
+	}
+
+	cout << "Linked List 1: ";
+	doubleList.print();
+	cout << "Linked List 2: ";
+	doubleList2.print();
+
+	cout << "\nDeleting the third node in both linked list\n";
+
+	doubleList.deleteItem(doubleItem, 2);
+	doubleList2.deleteItem(200.1);
+
+	cout << "Linked List 1: ";
+	doubleList.print();
+	cout << "Linked List 2: ";
+	doubleList2.print();
+
+	cout << "\nInserting a node in the moddle of the list\n";
+
+	doubleList.insert(175, 2);
+	doubleList2.insert(175, 2);
+
+	cout << "Linked List 1: ";
+	doubleList.print();
+	cout << "Linked List 2: ";
+	doubleList2.print();
+
+	return 0;
+}
+
+

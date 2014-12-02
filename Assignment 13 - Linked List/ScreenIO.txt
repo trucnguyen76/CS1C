@@ -1,0 +1,30 @@
+***************************************************************************
+*  PROGRAMMED BY : Elva Nguyen
+*  CLASS         : CS1C
+*  SECTION       : TTh: 6:00p - 8:50p
+*  ASSIGNMENT #13: Link List
+***************************************************************************
+
+INT LINK LIST
+Linked List 1: 30 50 10 40 60 
+Linked List 2: 60 40 10 50 30 
+
+Deleting the third node in both linked list
+Linked List 1: 30 50 40 60 
+Linked List 2: 60 40 50 30 
+
+Inserting a node in the middle of the list
+Linked List 1: 30 50 70 40 60 
+Linked List 2: 60 40 70 50 30 
+***************************************************************************
+DOUBLE LINK LIST
+Linked List 1: 75.9 75.5 200.1 20.6 26.3 
+Linked List 2: 26.3 20.6 200.1 75.5 75.9 
+
+Deleting the third node in both linked list
+Linked List 1: 75.9 75.5 20.6 26.3 
+Linked List 2: 26.3 20.6 75.5 75.9 
+
+Inserting a node in the middle of the list
+Linked List 1: 75.9 75.5 175 20.6 26.3 
+Linked List 2: 26.3 20.6 175 75.5 75.9 
